@@ -1,11 +1,11 @@
-package main
+package radian
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func Convert() {
 	var input float64
 	_, _ = fmt.Scanln(&input)
 	radian := input * (math.Pi / 180.0)
